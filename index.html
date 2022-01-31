@@ -1,25 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles.css">
-    <script src="./script.js" defer></script>
-    <title>Etch-a-sketch</title>
-</head>
-<body>
-    <main class="main-body">
-        <button onclick="window.location.reload();">Restart</button>
-        <div id="header-container">
-            <h1 id="header">Etch-a-sketch</h1>
-         </div>
-         
-        <p id="desc1"></p>
-
-        <div class="grid-container" id="container">
-            
-        </div>
-    </main>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Etch-A-Sketch</title>
+  </head>
+  <body>
+    <div class="right">
+      <div class="gridContainer"></div>
+    </div>
+    <div class="page">
+      <h1>ETCH-A-SKETCH</h1>
+      <label for="quantity">Type A Value For Grid Size:</label>
+      <input type="number" id="quantity" name="quantity" />
+      <button class="reset">RESET</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
